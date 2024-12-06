@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+</head>
+<body>
+    <input type="button" value="PEDRA" onclick="pedra()">
+
+    <input type="button" value="PAPEL" onclick="papel()">
+
+    <input type="button" value="TESOURA" onclick="tesoura()">
+
+    <p class="js-result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+
+    <input type="button" value="Reiniciar pontuação" onclick="reset()">
+    <div id="res">O resultado aparecerá aqui...</div>
+    <div id="pontuacao">Wins: 0, Losses: 0, Ties: 0.</div>
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>

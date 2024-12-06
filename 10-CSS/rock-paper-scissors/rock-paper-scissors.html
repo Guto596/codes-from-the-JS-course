@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra Papel Tesoura</title>
+
+    <link rel="stylesheet" href="rock-paper-scissors.css">
+
+</head>
+<body>
+    <p class="title">Rock Paper Scissors</p>
+
+    <button onclick="pedra()" class="move-button"><img src="files/pedra-emoji.png" alt="" class="move-icon"></button>
+
+    <button onclick="papel()" class="move-button"><img src="files/papel-emoji.png" alt="" class="move-icon"></button>
+
+    <button onclick="tesoura()" class="move-button"><img src="files/tesoura-emoji.png" alt="" class="move-icon"></button>
+
+    <p class="js-result result"></p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+
+    <div id="res">O resultado aparecerá aqui...</div>
+
+    <div id="pontuacao">Wins: 0, Losses: 0, Ties: 0.</div>
+
+    <input type="button" value="Reiniciar pontuação" onclick="reset()" class="reset-score-button">
+    
+    <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
